@@ -2,7 +2,7 @@
 # GTM Event Schema
 
 | Event Name                | Trigger Type             | Key Parameters                               | GA4 Report / Audience    |
- -----------------------------------------------------------------------------------------------------------------------------
+|---------------------------|--------------------------|----------------------------------------------|--------------------------|
 | page_view                 | Page View                | page_name, page_url, page_title              | Pages and Screens Report |
 | clinic_page_view          | Page View                | clinic_name, city, page_url                  | Pages and Screens Report |
 | booking_step_complete     | Custom Event (dataLayer) | clinic_location, specialty, step_number      | Funnel Exploration       |
