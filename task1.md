@@ -1,18 +1,18 @@
 
 # GTM Event Schema
 
- Event Name                | Trigger Type             | Key Parameters                               | GA4 Report / Audience 
+| Event Name                | Trigger Type             | Key Parameters                               | GA4 Report / Audience    |
  -----------------------------------------------------------------------------------------------------------------------------
- page_view                 | Page View                | page_name, page_url, page_title              | Pages and Screens Report 
- clinic_page_view          | Page View                | clinic_name, city, page_url                  | Pages and Screens Report 
- booking_step_complete     | Custom Event (dataLayer) | clinic_location, specialty, step_number      | Funnel Exploration 
- booking_completed         | Custom Event (dataLayer) | booking_id, clinic_location, specialty       | Conversions Report 
- call_button_click         | Click                    | page_name, button_location, clinic_name      | Events Report 
- whatsapp_click            | Click                    | page_name, clinic_name, whatsapp_link        | Events Report 
- patient_guide_form_submit | Form Submit              | phone_provided, guide_name, page_name        | Lead Generation Report 
- patient_guide_download    | File Download            | file_name, file_type, page_name              | Events Report 
- blog_scroll               | Scroll Depth             | page_title, scroll_percent, article_category | Engagement Report 
- blog_read_complete        | Scroll Depth (90%)       | page_title, scroll_percent, article_category | Engagement Report 
+| page_view                 | Page View                | page_name, page_url, page_title              | Pages and Screens Report |
+| clinic_page_view          | Page View                | clinic_name, city, page_url                  | Pages and Screens Report |
+| booking_step_complete     | Custom Event (dataLayer) | clinic_location, specialty, step_number      | Funnel Exploration       |
+| booking_completed         | Custom Event (dataLayer) | booking_id, clinic_location, specialty       | Conversions Report       |
+| call_button_click         | Click                    | page_name, button_location, clinic_name      | Events Report            |
+| whatsapp_click            | Click                    | page_name, clinic_name, whatsapp_link        | Events Report            |
+| patient_guide_form_submit | Form Submit              | phone_provided, guide_name, page_name        | Lead Generation Report   | 
+| patient_guide_download    | File Download            | file_name, file_type, page_name              | Events Report            |
+| blog_scroll               | Scroll Depth             | page_title, scroll_percent, article_category | Engagement Report        |
+| blog_read_complete        | Scroll Depth (90%)       | page_title, scroll_percent, article_category | Engagement Report        |
 
 
 
