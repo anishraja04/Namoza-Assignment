@@ -6,9 +6,6 @@
 <title>OrthoNow | Book a Consultation</title>
 
 <style>
-/* ===========================
-   GLOBAL STYLES
-=========================== */
 
 *{
     margin:0;
@@ -29,9 +26,6 @@ body{
     margin:auto;
 }
 
-/* ===========================
-   HEADER
-=========================== */
 
 header{
     background:#ffffff;
@@ -48,10 +42,6 @@ header{
 .logo span{
     color:#17a589;
 }
-
-/* ===========================
-   HERO SECTION
-=========================== */
 
 .hero{
     padding:60px 0;
@@ -82,9 +72,7 @@ header{
     margin-bottom:25px;
 }
 
-/* ===========================
-   TRUST BOX
-=========================== */
+/* TRUST BOX */
 
 .trust-box{
     display:grid;
@@ -111,9 +99,6 @@ header{
     margin:0;
 }
 
-/* ===========================
-   FORM CARD
-=========================== */
 
 .form-card{
     flex:1;
@@ -182,10 +167,6 @@ small{
     color:#777;
 }
 
-/* ===========================
-   THANK YOU MESSAGE
-=========================== */
-
 #thankYou{
     display:none;
     text-align:center;
@@ -200,10 +181,7 @@ small{
 #thankYou p{
     color:#555;
 }
-
-/* ===========================
-   FOOTER
-=========================== */
+/* FOOTER */
 
 footer{
     margin-top:60px;
@@ -213,9 +191,7 @@ footer{
     font-size:14px;
 }
 
-/* ===========================
-   MOBILE RESPONSIVE
-=========================== */
+/* Mobile  Responsive */
 
 @media(max-width:768px){
 
@@ -268,10 +244,8 @@ footer{
 
 <div class="hero-wrapper">
 
-<!-- ===========================
-LEFT CONTENT
-=========================== -->
-
+<!-- Content -->
+   
 <div class="hero-content">
 
 <h1>
@@ -310,9 +284,7 @@ Our doctors are available across 9 clinics in Bengaluru, Hyderabad, and Chennai.
 
 </div>
 
-<!-- ===========================
-RIGHT FORM
-=========================== -->
+<!-- Form -->
 
 <div class="form-card">
 
@@ -399,13 +371,9 @@ Our team will contact you shortly.
 
 </footer>
 
-<!-- JavaScript starts in Part 2 -->
 <script>
-    /* ===========================
-   JAVASCRIPT
-=========================== */
 
-/* Create dataLayer if GTM is not installed */
+/* Creating dataLayer */
 window.dataLayer = window.dataLayer || [];
 
 const form = document.getElementById("consultationForm");
@@ -431,9 +399,7 @@ form.addEventListener("submit", function(event){
         return;
     }
 
-    /* ===========================
-       GTM dataLayer Push
-    =========================== */
+    /* GTM dataLayer Push */
 
     window.dataLayer.push({
 
@@ -447,7 +413,6 @@ form.addEventListener("submit", function(event){
 
     });
 
-    /* Show in browser console */
 
     console.log("dataLayer Event:", window.dataLayer);
 
